@@ -1,0 +1,106 @@
+
+.inicio{
+    background-color: #281DC0;
+    width: auto;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 20px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #F8F8F8;
+    background-image: url('/css/foto6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.images{
+display: flex;
+background-color: #281DC0;
+border-radius: 5px;
+align-items: center;
+justify-content: center;
+margin: 100px;
+flex-wrap: wrap;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.fotos{
+    width: 100px;
+    height:200px;
+    margin: 10px;
+    padding: 50px;
+    object-fit: cover;
+
+
+
+}
+.grande{
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    object-fit: contain;
+    flex-basis: 100%;
+
+}
+.fotos2{
+    width: 100px;
+    height: 80px;
+    margin: 12px;
+    padding: 10px;
+}
+.images2{
+    width: 100px;
+    height: 80px;
+    margin: 12px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    animation: girar 5s linear infinite;
+    transform-origin: center;
+}
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.images3{
+    width: 100px;
+    height: 80px;
+    margin: 12px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: girar 5s linear infinite;
+    transform-origin: center;
+}
+.images4{
+    width: 100px;
+    height: 80px;
+    margin: 12px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    animation: girar 5s linear infinite;
+    transform-origin: center;
+}
+.images5{
+    width: 100px;
+    height: 80px;
+    margin: 12px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    animation: girar 5s linear infinite;
+    transform-origin: center;
+}
