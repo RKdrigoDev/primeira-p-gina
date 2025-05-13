@@ -12,7 +12,7 @@
 }
 body{
     background-color: #F8F8F8;
-    background-image: url('/css/foto6.jpg');
+    background-image: url('css/foto6.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
